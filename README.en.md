@@ -1,5 +1,7 @@
 # codex-mcp-migrate (EN)
 
+[中文](README.md) | English
+
 A flexible and reliable migration tool from `mcpconfig.json` / `mcp-config.json` to Codex `config.toml`.
 
 ## Quick Start
