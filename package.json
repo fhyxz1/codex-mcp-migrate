@@ -1,7 +1,7 @@
 {
   "name": "codex-mcp-migrate",
-  "version": "0.1.0",
-  "description": "Migrate mcp-config.json into Codex config.toml mcp_servers",
+  "version": "0.2.0",
+  "description": "Flexible migration from mcpconfig.json/mcp-config.json to Codex config.toml",
   "type": "module",
   "bin": {
     "codex-mcp-migrate": "./dist/cli.js"
@@ -24,8 +24,17 @@
     "codex",
     "mcp",
     "toml",
-    "migration"
+    "migration",
+    "json-to-toml"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fhyxz1/codex-mcp-migrate.git"
+  },
+  "homepage": "https://github.com/fhyxz1/codex-mcp-migrate#readme",
+  "bugs": {
+    "url": "https://github.com/fhyxz1/codex-mcp-migrate/issues"
+  },
   "license": "MIT",
   "dependencies": {
     "@iarna/toml": "^2.2.5",
